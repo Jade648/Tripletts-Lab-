@@ -1,37 +1,37 @@
 
 public class Triplet <C>{
 
-   private C Hours;
-   private C Minutes;
+   private C first;
+   private C second;
 
-   public Triplet(C hours, C minutes, C seconds) {
+   public C getFirst() {
+      return first;
    }
 
-   public C getHours() {
-      return Hours;
+   public void setFirst(C first) {
+      this.first = first;
    }
 
-   public void setHours(C hours) {
-      Hours = hours;
+   public C getSecond() {
+      return second;
    }
 
-   public C getMinutes() {
-      return Minutes;
+   public void setSecond(C second) {
+      this.second = second;
    }
 
-   public void setMinutes(C minutes) {
-      Minutes = minutes;
+   public C getThird() {
+      return third;
    }
 
-   public C getSeconds() {
-      return Seconds;
+   public void setThird(C third) {
+      this.third = third;
    }
 
-   public void setSeconds(C seconds) {
-      Seconds = seconds;
-   }
+   private C third;
 
-   private C Seconds; 
+   public Triplet(C first, C second, C third) {
+   }
    
 }
 
